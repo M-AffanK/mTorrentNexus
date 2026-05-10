@@ -1,0 +1,2 @@
+add_executable(mtorrent_storage_node main.cpp)
+target_link_libraries(mtorrent_storage_node PRIVATE pthread)
